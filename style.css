@@ -1,0 +1,39 @@
+#game-images-div {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.game-container {
+    flex: 0 1 calc(33.333% - 20px); 
+    margin: 10px;
+    text-align: center; 
+}
+.hovered-img {
+    transform: scale(1.2); 
+    opacity: 0.5; 
+}
+
+#favorite-display {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 10px; 
+    overflow-x: auto; 
+
+}
+
+#favorite-display .game-container {
+    flex: 0 0 33.333%; 
+    margin: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#title {
+
+    text-align: center;
+}
